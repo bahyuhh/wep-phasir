@@ -43,7 +43,7 @@
             serverSide: true,
             autoWidth: false,
             ajax: {
-                url: '{{ route('kategori.data') }}',
+                url: '{{ route('kategori.data') }}'
             },
             columns: [
                 {data: 'DT_RowIndex', searchable: false, sortable: false},
