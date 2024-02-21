@@ -14,7 +14,7 @@
 <div class="row">
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-aqua">
+        <div class="small-box bg-green">
             <div class="inner">
                 <h3>{{ $kategori }}</h3>
 
@@ -44,7 +44,7 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-yellow">
+        <div class="small-box bg-green">
             <div class="inner">
                 <h3>{{ $member }}</h3>
 
@@ -59,7 +59,7 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-red">
+        <div class="small-box bg-green">
             <div class="inner">
                 <h3>{{ $supplier }}</h3>
 
@@ -75,30 +75,9 @@
 </div>
 <!-- /.row -->
 <!-- Main row -->
-<div class="row">
-    <div class="col-lg-12">
-        <div class="box">
-            <div class="box-header with-border">
-                <h3 class="box-title">Grafik Pendapatan {{ tanggal_indonesia($tanggal_awal, false) }} s/d {{ tanggal_indonesia($tanggal_akhir, false) }}</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="chart">
-                            <!-- Sales Chart Canvas -->
-                            <canvas id="salesChart" style="height: 180px;"></canvas>
-                        </div>
-                        <!-- /.chart-responsive -->
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-        </div>
-        <!-- /.box -->
-    </div>
-    <!-- /.col -->
-</div>
+
+<!-- grafik -->
+
 <!-- /.row (main row) -->
 @endsection
 

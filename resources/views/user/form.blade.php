@@ -30,7 +30,7 @@
                         <div class="col-lg-6">
                             <input type="password" name="password" id="password" class="form-control" 
                             required
-                            minlength="6">
+                            minlength="12">
                             <span class="help-block with-errors"></span>
                         </div>
                     </div>

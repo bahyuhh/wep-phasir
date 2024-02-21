@@ -20,7 +20,7 @@ class UserTableSeeder extends Seeder
                 'email' => 'admin@gmail.com',
                 'password' => bcrypt('123'),
                 'foto' => '/img/user.jpg',
-                'level' => 1
+                'level' => 1   
             ],
             [
                 'name' => 'Kasir 1',
